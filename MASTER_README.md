@@ -2,17 +2,16 @@ This repo is a throwaway.
  i will be using for keeping track of new toolsets to try out.
 
 
-Tools to try:
+Tools to learn:
 
-
-GitLab
 
 
 Cloud Platforms:
 Microsoft Azure
-Red Hat OpenShift
 Google Cloud
 
+Infrastructure platforms:
+Red Hat OpenShift
 
 DBs:
 SQL
@@ -20,5 +19,6 @@ MongoDB
 
 
 IaC:
+
 Pulumi
-Ansible
+Jenkins
