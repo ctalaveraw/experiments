@@ -1,0 +1,27 @@
+## This is a sample cluster node configuration file
+
+allowDisabledDocker: true
+apiVersion: v1
+dnsDomain: cluster.local
+dnsIP: 10.0.2.15
+dockerConfig:
+  execHandlerName: native
+imageConfig:
+  format: openshift/origin-${component}:${version}
+  latest: false
+kind: NodeConfig
+masterKubeConfig: node.kubeconfig
+networkConfig:
+  mtu: 1450
+  networkPluginName: ""
+nodeIP: ""
+nodeName: node1.example.com
+podManifestConfig: 
+  path: "/path/to/pod-manifest-file" 
+  fileCheckIntervalSeconds: 30 
+servingInfo:
+  bindAddress: 0.0.0.0:10250
+  certFile: server.crt
+  clientCA: node-client-ca.crt
+  keyFile: server.key
+volumeDirectory: /root/openshift.local.volumes

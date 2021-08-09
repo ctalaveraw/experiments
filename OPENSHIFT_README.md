@@ -1,5 +1,6 @@
-RedHat Openshift
+Red Hat OpenShift
 
-This is an on-premise cloud platform.
+This is a hybrid environment container cluster management tool, part of Red Hat OpenStack.
 
-This might be the trend going forward
+
+Lots of companies are opting for Rancher or HashiCorp Nomad it seems like.
