@@ -1,0 +1,5 @@
+# Pulumi project metadata file
+
+name: pulumi-party
+runtime: python
+description: Example of a Pulumi project using Docker as a provider

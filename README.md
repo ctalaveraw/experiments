@@ -1,4 +1,9 @@
-Pulumi
+# Pulumi
+
+IaC tool based on Terraform architecture.
+Uses real programming languages in place of a proprietary, tool specific one.
 
 
-Need Java or Python to use this tool
+Projects:
+
+- pulumi-party/ - test project using Docker and Python
