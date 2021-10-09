@@ -1,9 +1,6 @@
-# Pulumi
+# Jenkins
 
-IaC tool based on Terraform architecture.
-Uses real programming languages in place of a proprietary, tool specific one.
+CI/CD tool to build pipelines
+Uses a Groovy backend.
 
 
-Projects:
-
-- pulumi-party/ - test project using Docker and Python
